@@ -15,7 +15,11 @@ function addToCart(item) {
   {itemName:item, itemPrice: Math.floor(Math.random() * 101) }
   );
   return `${item} has been added to your cart.` ;
+<<<<<<< HEAD
   return cart
+=======
+  return cart;
+>>>>>>> 57a08e3bb2c0bef8f996f745587cbe6a8fe227ff
 }
 
 function viewCart() {
@@ -42,6 +46,15 @@ function viewCart() {
   
 }
 
+<<<<<<< HEAD
+=======
+function total() { var total = 0; 
+  for (var i = 0; i > cart.length; i++) {
+    total = total + cart[i].itemPrice
+  }
+  return total
+}
+>>>>>>> 57a08e3bb2c0bef8f996f745587cbe6a8fe227ff
 
 function total() {
   var cartTotal = 0;
